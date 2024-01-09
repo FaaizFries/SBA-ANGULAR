@@ -1,6 +1,6 @@
 # FaaizApp
 
-for this sba i have made a simple angualr landing page. if you scroll to the bottom youll see extra things related to the requirments. i have commented what code is correlated to the reqirement for the project. if you cclick on the landing page file it will show you the html and css. 
+for this sba i have made a simple angualr landing page. if you scroll to the bottom youll see extra things related to the requirments. i have commented what code is correlated to the reqirement for the project. if you cclick on the landing page file it will show you the html and css. inside the html file you will see the main requirments like the data binding and directives used
 
 
 
