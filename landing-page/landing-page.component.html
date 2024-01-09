@@ -1,0 +1,50 @@
+<div class="landing-page">
+    <header class="topbar">
+     
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      
+      <h1> Made by car enthusiasts, <br> For car enthusiasts</h1>
+
+      <div class="search-bar">
+        <input type="text" placeholder="Search...">
+        <button>Search</button>
+      </div>
+    </header>
+  
+  
+  </div>
+  <!-- FOUR DIFFRENT DIRECTIVES-->
+
+  <!-- ngFor -->
+  <div *ngFor="let item of items">
+    {{ item }}
+  </div>
+  <!-- ngIf -->
+  <div *ngIf="isLoggedIn">
+    Welcome! You are logged in.
+  </div>
+  <!-- ngStyle -->
+  <div [ngStyle]="{ 'color': applyStyle ? 'blue' : 'red' }">
+    Dynamic Style Applied
+  </div>
+  <!-- ngClass -->
+  <div [ngClass]="{ 'custom-class': applyClass }">
+    Element with Conditional Class
+  </div>
+<!-- IMPLEMENTING DATA BINDING -->
+  
+<!-- Interpolation (One-way Binding) -->
+<h2>{{ pageTitle }}</h2>
+<!-- Property Binding (One-way Binding) -->
+  <img [src]="imageUrl" alt="Image">
+<!-- Event Binding: -->
+  <button (click)="incrementClicks()">Click me</button>
+    <p>Button clicked: {{ buttonClicks }} times</p>
+<!-- Two-way Binding (Using ngModel -->

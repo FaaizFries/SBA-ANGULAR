@@ -1,0 +1,58 @@
+/* Add styles for the top bar */
+.landing-page {
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1493238792000-8113da705763?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTN8fHxlbnwwfHx8fHw%3D'); /* Replace 'your-image.jpg' with your image file name */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .topbar {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fffdfd;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input {
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  .search-bar button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  h1 {
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    font-size: 50px;
+  }
+  
