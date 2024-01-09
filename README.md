@@ -1,5 +1,11 @@
 # FaaizApp
 
+for this sba i have made a simple angualr landing page. if you scroll to the bottom youll see extra things related to the requirments. i have commented what code is correlated to the reqirement for the project.
+
+
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.9.
 
 ## Development server
